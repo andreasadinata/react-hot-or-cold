@@ -29,38 +29,36 @@ export default class Game extends React.Component {
       return;
     }
     const difference = Math.abs(this.state.value - guess)
-    console.log(difference);
+
     if (difference >= 50){
-      console.log(difference);
-      console.log("50");
-      this.setState({feedback: 'Woooaahhh, It is freezing'})
+
+      this.setState({feedback: 'Woooaahhh, It is freezing (+/- 50 Up)'})
     }
     else if(difference >=25){
-      console.log("25");
-      this.setState({feedback: 'Ummm, It is kinda hot'})
+
+        this.setState({feedback: 'Ummm, It is kinda hot (+/- 25 Up)'})
     }
     else if(difference >=10){
-      console.log("10");
-      this.setState({feedback: 'Warm'})
+
+        this.setState({feedback: 'Warm (+/- 10 Up)'})
     }
     else if(difference >=5){
-      this.setState({feedback: 'You are Hot!'})
+        this.setState({feedback: 'You are Hot! (+/- 5 Up)'})
     }
     else if(difference >=1){
-      this.setState({feedback: 'One more step'})
+        this.setState({feedback: 'One more step (+/- 1 Up)'})
     }
     else{
       this.setState({feedback: 'GOT IT!!'})
     }
 
     this.setState({guesses:[...this.state.guesses,guess]});
-    
-    
-    
+
+
+
 }
-  
+
   render() {
-    console.log(this.state.value);
     return(
     <div>
         <Header onNewGame={()=>this.newGame()}/>

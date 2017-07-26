@@ -14,18 +14,18 @@ export default class TopNav extends React.Component{
         this.props.onModal();
       }
     }
-    
+
     render(){
       return(
       <nav>
              <ul className="clearfix">
               <li>
-                   <a className="what" href="#" onClick={e => this.onModal(e)}>
+                   <a className="what" onClick={e => this.onModal(e)}>
                             What?
                     </a>
               </li>
                <li>
-                        <a className="new" href="#" onClick={e => this.onNewGame(e)}>
+                        <a className="new" onClick={e => this.onNewGame(e)}>
                             + New Game
                         </a>
                  </li>

@@ -12,13 +12,13 @@ export default class Header extends React.Component{
         openCloseModal : false
       }
     }
-    
+
     toggleModal(){
       this.setState({
         openCloseModal: !this.state.openCloseModal
       })
     }
-  
+
     render(){
       let infoModal;
       if (this.state.openCloseModal){
@@ -28,7 +28,7 @@ export default class Header extends React.Component{
       <header>
           <TopNav onNewGame={()=>this.props.onNewGame()} onModal={()=>this.toggleModal()}/>
             {infoModal}
-          <h1> Hot or Cold </h1>
+    <h1> <span  className = "hot" >Hot</span> or <span className="cold">Cold</span> </h1>
       </header>
 )
     }

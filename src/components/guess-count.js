@@ -3,8 +3,8 @@ import './guess-count.css';
 
 export default function GuessCount (props){
   return(
-    <div>
-      "Guesses #" {props.guesses}
+    <div id="count">
+      Guesses #{props.guesses}
     </div>
   )
 }
