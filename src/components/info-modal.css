@@ -48,7 +48,7 @@
     margin: 0;
     padding: 10px 0;
     line-height: 2em;
-    text-align: justify;
+    text-align: left;
 }
 
 .content > div ul {
@@ -81,4 +81,15 @@
     margin-right: auto;
     display: block;
     width: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+    .content{
+        width: 80%
+    }
+    .content > div a{
+        width: 60%;
+        padding: 18px;
+        text-align: center;
+    }
 }

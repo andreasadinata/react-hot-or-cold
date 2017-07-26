@@ -24,3 +24,10 @@ ul.guessBox li {
     margin: 0.2em;
     color: #fff;
 }
+
+
+@media only screen and (max-width: 600px) {
+    ul.guessBox{
+        width: 90%;
+    }
+}

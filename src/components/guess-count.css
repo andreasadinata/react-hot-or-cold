@@ -13,3 +13,9 @@
     background-color: #11a8ab;
 
 }
+@media only screen and (max-width: 600px) {
+    #count{
+        width: 90%;
+        font-size: 18px;
+    }
+}

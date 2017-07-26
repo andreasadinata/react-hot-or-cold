@@ -62,3 +62,9 @@ input:focus {
 :-ms-input-placeholder {
    color: #95a5a6;
 }
+
+@media only screen and (max-width: 600px) {
+    input.button{
+        font-size: 18px;
+    }
+}

@@ -1,14 +1,14 @@
 h2 {
-	margin: 0 auto;	
-	background: #cc324b;
-	padding: 1em 0.4em;
-	font-size: 1.5em;
-	font-weight: 400;
-	display: block;
-	line-height: 1em;
-	border-top-left-radius: 4px;
-	border-top-right-radius: 4px;
-	color: #fff;
+    margin: 0 auto;
+    background: #cc324b;
+    padding: 1em 0.4em;
+    font-size: 1.5em;
+    font-weight: 400;
+    display: block;
+    line-height: 1em;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #fff;
   text-align:center;
 }
 
@@ -16,5 +16,12 @@ h2 {
   width:50%;
   margin-left:auto;
   margin-right:auto;
-  max-width:500px;
+  max-width:600px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .centered{
+        width: 90%;
+    }
 }
