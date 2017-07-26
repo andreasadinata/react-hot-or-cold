@@ -1,12 +1,12 @@
 # Merrython
 A Simple game made by React and Redux.
-![home-page](https://github.com/andreasadinata/merrython/blob/master/public/screenshot/Homepage.png)
+![home-page](https://github.com/andreasadinata/react-hot-or-cold/blob/master/src/images/screenshots/home.png)
 
-![guess](https://github.com/andreasadinata/merrython/blob/master/public/screenshot/Active-call-result.png)
+![guess](https://github.com/andreasadinata/react-hot-or-cold/blob/master/src/images/screenshots/guess.png)
 
-![got-it](https://github.com/andreasadinata/merrython/blob/master/public/screenshot/Drop-comment-section.png)
+![got-it](https://github.com/andreasadinata/react-hot-or-cold/blob/master/src/images/screenshots/got-it.png)
 
-![introduction](https://github.com/andreasadinata/merrython/blob/master/public/screenshot/Thank-you-and-comment-list.png)
+![introduction](https://github.com/andreasadinata/react-hot-or-cold/blob/master/src/images/screenshots/explanation-of-the-game.png)
 
 ## Live Site
 You can access the demo here https://hot-or-cold.netlify.com/
