@@ -5,7 +5,7 @@ import GuessForm from './guess-form';
 
 export default function GuessSection(props){
   return(
-    <div>
+    <div className="centered">
       <h2 id="feedback">{props.feedback}</h2>
       <GuessForm onGuess={props.onGuess}/>
     </div>
