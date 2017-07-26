@@ -5,7 +5,6 @@ import './info-modal.css';
 export default class InfoModal extends React.Component{
   onClose(event){
     event.preventDefault();
-    console.log("hi");
     if(this.props.onClose){
       this.props.onClose()
     }

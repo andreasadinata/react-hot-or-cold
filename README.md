@@ -1,27 +1,19 @@
-Welcome to the Glitch BETA
-=========================
+# Merrython
+A Simple game made by React and Redux.
+![home-page](https://github.com/andreasadinata/merrython/blob/master/public/screenshot/Homepage.png)
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+![guess](https://github.com/andreasadinata/merrython/blob/master/public/screenshot/Active-call-result.png)
 
-**Glitch** is the friendly commmunity where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+![got-it](https://github.com/andreasadinata/merrython/blob/master/public/screenshot/Drop-comment-section.png)
 
-Find out more [about Glitch](https://glitch.com/about).
+![introduction](https://github.com/andreasadinata/merrython/blob/master/public/screenshot/Thank-you-and-comment-list.png)
 
+## Live Site
+You can access the demo here https://hot-or-cold.netlify.com/
 
-Your Project
-------------
+## Technical
+* The app is built by HTML5, JS, CSS3, React+Redux
+* The app is responsive where it can be easily accessed by mobile phone, tablet, and computer.
+* We are using Travis CI to be the main platform in testing out the program.
+* We are using netlify as our domain for this project.
 
-On the front-end,
-- edit `public/client.js`, `public/style.css` and `views/index.html`
-- drag in `assets`, like images or music, to add them to your project
-
-On the back-end,
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
-
-
-Made by [Fog Creek](https://fogcreek.com/)
--------------------
-
-\ ゜o゜)ノ
